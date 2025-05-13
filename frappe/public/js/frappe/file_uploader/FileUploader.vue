@@ -150,7 +150,7 @@
 						<div class="mt-1">{{ __("Camera") }}</div>
 					</button>
 					<button
-						v-if="google_drive_settings.enabled"
+						v-if="allow_google_drive && google_drive_settings.enabled"
 						class="btn btn-file-upload"
 						@click="show_google_drive_picker"
 					>
@@ -274,6 +274,24 @@ const props = defineProps({
 	upload_notes: {
 		default: null, // "Images or video, upto 2MB"
 	},
+<<<<<<< HEAD
+=======
+	allow_web_link: {
+		default: true,
+	},
+	allow_take_photo: {
+		default: true,
+	},
+	allow_toggle_private: {
+		default: true,
+	},
+	allow_toggle_optimize: {
+		default: true,
+	},
+	allow_google_drive: {
+		default: true,
+	},
+>>>>>>> dc3ab2ee14 (feat: add option to disallow Google Drive in file uploader (#32517))
 });
 
 // variables
@@ -298,8 +316,16 @@ let google_drive_settings = ref({
 let wrapper_ready = ref(false);
 
 // created
+<<<<<<< HEAD
 allow_take_photo.value = window.navigator.mediaDevices;
 if (frappe.user_id !== "Guest") {
+=======
+if (props.allow_take_photo) {
+	allow_take_photo.value = window.navigator.mediaDevices;
+}
+
+if (frappe.user_id !== "Guest" && props.allow_google_drive) {
+>>>>>>> dc3ab2ee14 (feat: add option to disallow Google Drive in file uploader (#32517))
 	frappe.call({
 		// method only available after login
 		method: "frappe.integrations.doctype.google_settings.google_settings.get_file_picker_settings",
