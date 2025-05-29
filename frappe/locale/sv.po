@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-05-18 09:33+0000\n"
-"PO-Revision-Date: 2025-05-28 10:24\n"
+"PO-Revision-Date: 2025-05-29 10:38\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -30014,7 +30014,7 @@ msgstr "Du har inte lagt till några Översiktpanel Diagram eller Nummerkort än
 
 #: frappe/public/js/frappe/list/list_view.js:498
 msgid "You haven't created a {0} yet"
-msgstr "Du har inte skapat {0} än"
+msgstr "Ingen {0} skapad än"
 
 #: frappe/rate_limiter.py:166
 msgid "You hit the rate limit because of too many requests. Please try after sometime."
