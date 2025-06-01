@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-05-18 09:33+0000\n"
-"PO-Revision-Date: 2025-05-29 10:38\n"
+"PO-Revision-Date: 2025-06-01 11:25\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -12115,7 +12115,7 @@ msgstr "Regel med högre prioritet tillämpas först"
 #. Label of the highlight (Text) field in DocType 'Company History'
 #: frappe/website/doctype/company_history/company_history.json
 msgid "Highlight"
-msgstr "Markera"
+msgstr "Höjdpunkt"
 
 #: frappe/www/update-password.html:276
 msgid "Hint: Include symbols, numbers and capital letters in the password"
