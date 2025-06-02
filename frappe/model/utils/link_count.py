@@ -27,15 +27,7 @@ def flush_local_link_count():
 	if not link_count:
 		link_count = {}
 
-<<<<<<< HEAD
-		for key, _value in frappe.local.link_count.items():
-			if key in link_count:
-				link_count[key] += frappe.local.link_count[key]
-			else:
-				link_count[key] = frappe.local.link_count[key]
-
-	frappe.cache().set_value("_link_count", link_count)
-=======
+	new_links = frappe.local.link_count
 	flush = False
 	for key, value in new_links.items():
 		if key in link_count:
@@ -47,9 +39,8 @@ def flush_local_link_count():
 		flush = True
 
 	if flush:
-		frappe.cache.set_value("_link_count", link_count)
+		frappe.cache().set_value("_link_count", link_count)
 	new_links.clear()
->>>>>>> 4d8ebcce29 (perf: Apply backpressure on link counts (#32712))
 
 
 def update_link_count():
