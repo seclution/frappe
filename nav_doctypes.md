@@ -30,7 +30,7 @@ Ein DocType umfasst typischerweise folgende Dateien:
 - optional `<DocType>.js` – clientseitige Logik
 - optionale weitere Ressourcen wie `<DocType>.md`, Test- oder Patch-Verzeichnisse
 
-## Prompt-Vorlage
+Prompt:
 ```
 Analysiere oder erstelle einen DocType. Suche im Repository nach `frappe/**/doctype/<DocType>` und öffne die genannten Dateien. Fasse anschließend die relevanten Abschnitte prägnant zusammen.
 ```
