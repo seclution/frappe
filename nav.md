@@ -4,6 +4,7 @@ This repository contains the core code of the **Frappe Framework**. Use the navi
 
 - [Doctypes](nav_doctypes.md)
 - [APIs](nav_apis.md)
+- [Emails](nav_emails.md)
 - [Websites](nav_websites.md)
 - [Permissions](nav_permissions.md)
 - [Fixtures](nav_fixtures.md)
