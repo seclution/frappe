@@ -4,13 +4,21 @@ This repository contains the core code of the **Frappe Framework**. Use the navi
 
 - [Doctypes](nav_doctypes.md)
 - [APIs](nav_apis.md)
+- [Emails](nav_emails.md)
 - [Websites](nav_websites.md)
 - [Permissions](nav_permissions.md)
 - [Fixtures](nav_fixtures.md)
 - [Hooks](nav_hooks.md)
+- [Integrations](nav_integrations.md)
 - [Patches](nav_patches.md)
 - [Translations](nav_translations.md)
+- [Reports](nav_reports.md)
+- [Printing](nav_printing.md)
 - [Webforms](nav_webforms.md)
+- [Database](nav_database.md)
 - [Scheduled Tasks](nav_scheduled.md)
+- [Search](nav_search.md)
+- [CLI Commands](nav_commands.md)
+- [Workflows](nav_workflows.md)
 
 Each `nav_<topic>.md` file contains prompt templates and directory hints so you can load only the necessary code in context.
