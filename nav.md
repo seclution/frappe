@@ -9,6 +9,7 @@ This repository contains the core code of the **Frappe Framework**. Use the navi
 - [Permissions](nav_permissions.md)
 - [Fixtures](nav_fixtures.md)
 - [Hooks](nav_hooks.md)
+- [Integrations](nav_integrations.md)
 - [Patches](nav_patches.md)
 - [Webforms](nav_webforms.md)
 - [Scheduled Tasks](nav_scheduled.md)
