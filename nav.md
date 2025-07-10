@@ -10,6 +10,7 @@ This repository contains the core code of the **Frappe Framework**. Use the navi
 - [Hooks](nav_hooks.md)
 - [Patches](nav_patches.md)
 - [Webforms](nav_webforms.md)
+- [Database](nav_database.md)
 - [Scheduled Tasks](nav_scheduled.md)
 
 Each `nav_<topic>.md` file contains prompt templates and directory hints so you can load only the necessary code in context.
