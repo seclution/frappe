@@ -15,6 +15,7 @@ This repository contains the core code of the **Frappe Framework**. Use the navi
 - [Printing](nav_printing.md)
 - [Webforms](nav_webforms.md)
 - [Scheduled Tasks](nav_scheduled.md)
+- [Search](nav_search.md)
 - [CLI Commands](nav_commands.md)
 - [Workflows](nav_workflows.md)
 
